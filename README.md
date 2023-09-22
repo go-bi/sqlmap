@@ -3,10 +3,6 @@
 ```
 # Sqlmap
 
-<p align="center">
-    <img src="../../../assets/img/logo/Sqlmap.png" width="25%">
-</p>
-
 ---
 
 ## 免责声明
